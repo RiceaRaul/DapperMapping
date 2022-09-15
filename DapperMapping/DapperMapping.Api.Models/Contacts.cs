@@ -6,10 +6,10 @@ namespace DapperMapping.Api.Models
         public int Id { get; set; }
 
         [Column("name_contact")]
-        public string NameContact { get; set; }
+        public int NameContact { get; set; }
 
 
         [Column("phone_number")]
-        public string PhoneNumber { get; set; }
+        public int PhoneNumber { get; set; }
     }
 }

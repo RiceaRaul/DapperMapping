@@ -23,7 +23,7 @@ namespace DapperMapping.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<Contacts> Get()
+        public IEnumerable<ContactsResponse> Get()
         {
             return _unitWork.ContactsRepository.All();
         }
